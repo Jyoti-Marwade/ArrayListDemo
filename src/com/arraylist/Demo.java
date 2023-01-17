@@ -1,15 +1,18 @@
 package com.arraylist;
 
+
 import java.util.ArrayList;
+import java.util.List;
 
 public class Demo {
 
 	public static void main(String[] args) {
-		ArrayList<String> al=new ArrayList<String>();
+		List<String> al=new ArrayList<String>();
 		al.add("Jyoti");
+		al.add("Ram");
+		al.add("Shiva");
+		al.add("Rita");
 		al.add("Rohit");
-		al.add("Mayur");
-		al.add("Yuvraj");
 		System.out.println(al);
 	}
 }
